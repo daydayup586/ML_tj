@@ -1,3 +1,5 @@
 {
-    "commentTranslate.source": "DarkCWK.youdao-youdao"
+    "commentTranslate.source": "DarkCWK.youdao-youdao",
+    // "python.terminal.executeInFileDir": true,
+    "terminal.integrated.env.windows": {"PYTHONPATH":"${workspaceFolder};${env:PYTHONPATH}"}
 }

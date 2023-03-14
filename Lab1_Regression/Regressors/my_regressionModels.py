@@ -1,6 +1,6 @@
 import numpy as np
 
-from utilities.my_Func import *
+from Lab1_Regression.utilities.my_Func import *
 
 class MyLinearRegression(object):
     def __init__(self):
@@ -25,6 +25,8 @@ class MyLinearRegression(object):
         self.Theta = np.linalg.inv(bX.T.dot(bX)).dot(bX.T).dot(y) #(𝑋^𝑇*𝑋)^(−1)*𝑋^𝑇*𝑦
         self.b = self.Theta[0]
         self.W = self.Theta[1:]
+
+    
 
     def train(
         self,
